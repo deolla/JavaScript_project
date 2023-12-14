@@ -1,3 +1,4 @@
+/*
 // task 1
 const country = 'Nigeria';
 const continent = 'Africa';
@@ -49,4 +50,4 @@ if (population > 33) {
 
 // task 10
 console.log('9' - '5'); // 95
-console.log('19' - '13' + '17'); // 191317
+console.log('19' - '13' + '17'); // 191317 */

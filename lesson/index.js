@@ -91,8 +91,74 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century); */
-
+/*
 // Type Conversion and Coercion
 const inputYear = '1999';
 console.log(Number(inputYear) + 18);
 
+console.log(Number('seyi'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+// Type Coercion
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 3);
+
+// Truthy and Falsy Values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('seyi'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+console.log(Boolean(null));
+
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log('You should get a job!');
+}
+
+let height;
+if (height) {
+    console.log('YAY! Height is defined');
+} else {
+    console.log('Height is UNDEFINED');
+} */
+
+/*
+
+// Equality Operators: == vs. ===
+// === is strict equality operator
+// it does not perform type coercion
+// 18 === 18 (true) not 18 === '18' (false)
+const age = 18;
+if (age === 18) console.log('You just became an adult :D (strict)');
+
+// == is loose equality operator
+// it performs type coercion
+if (age == '18') console.log('You just became an adult :D (loose)');
+// '18' == 18 (true)
+
+// always use strict equality operator. This is because it is predictable
+// avoid loose equality operator.. it is not predictable
+
+const favourite = Number(prompt("What is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+if (favourite === 23) {
+    console.log('Cool! 23 is an amazing number!')
+} else if (favourite === 7) {
+    console.log('7 is also a cool number')
+} else if (favourite === 9) {
+    console.log('9 is also a cool number')
+} else {
+    console.log('Number is not 23 or 7 or 9')
+}
+// !== is strict inequality operator
+// it does not perform type coercion
+// 18 !== 18 (false) not 18 !== '18' (true)
+if (favourite !== 23) console.log('Why not 23?'); */
+
+// Boolean Logic
