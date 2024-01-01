@@ -162,3 +162,21 @@ if (favourite === 23) {
 if (favourite !== 23) console.log('Why not 23?'); */
 
 // Boolean Logic
+
+
+/* Write your code below. Good luck! 🙂 */
+
+
+const scoreDolpine = (96 + 108 + 89) / 3
+
+const scoreKoalas = (88 + 91 + 110) / 3
+
+if (scoreDolpine > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+} else if (scoreKoalas > scoreDolpine) {
+    console.log("Koalas win the trophy")
+} else if (scoreDolpine === scoreKoalas) {
+    console.log("Both win the trophy")
+} else {
+    console.log("No team wins the trophy")
+}
