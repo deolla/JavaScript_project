@@ -161,22 +161,126 @@ if (favourite === 23) {
 // 18 !== 18 (false) not 18 !== '18' (true)
 if (favourite !== 23) console.log('Why not 23?'); */
 
-// Boolean Logic
+// Boolean Logic 
 
 
 /* Write your code below. Good luck! 🙂 */
 
-
+/*
 const scoreDolpine = (96 + 108 + 89) / 3
 
 const scoreKoalas = (88 + 91 + 110) / 3
 
-if (scoreDolpine > scoreKoalas) {
+if (scoreDolpine > scoreKoalas && scoreDolpine >= 100) {
     console.log("Dolphins win the trophy")
-} else if (scoreKoalas > scoreDolpine) {
+} else if (scoreKoalas > scoreDolpine && scoreKoalas >= 100) {
     console.log("Koalas win the trophy")
-} else if (scoreDolpine === scoreKoalas) {
+} else if (scoreDolpine === scoreKoalas && scoreDolpine >= 100 && scoreKoalas >= 100) {
     console.log("Both win the trophy")
 } else {
     console.log("No team wins the trophy")
 }
+*/
+/*
+// The switch Statement
+const day = 'monday' 
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+       break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend :D');
+        break;
+    default:
+        console.log('Not a valid day!');
+}
+// using if, else statement
+if (day === 'monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend :D');
+} else {
+    console.log('Not a valid day!');
+}
+*/
+
+/*
+
+// Statements and Expressions
+// An expression is a piece of code that produces a value
+ 3 + 4
+ 1999
+true && false && !false
+
+
+
+// A statement is a bigger piece of code that is executed and which does not produce a value on itself
+// Examples of statements
+if (23 > 10) { // A block is also a statement
+    const str = '23 is bigger'; // the string is an expression and the whole line is a statement
+} // It does not produce a value
+*/
+
+/*
+
+// The Conditional (Ternary) Operator
+// A conditional operator is a ternary operator because it has three parts
+// The first part is the condition
+// The second part is the 'if' part
+// The third part is the 'else' part
+// The conditional operator is an expression and not a statement
+const age = 23;
+age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'wine';
+} else {
+    drink2 = 'water';
+}
+console.log(drink2);
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
+
+/*
+// Coding Challenge #4
+
+const bill = 430;
+
+let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
+
+*/
+
+
+/*
+if (bill >= 50 && bill <= 300) {
+    console.log(`The bill was ${bill}, the tip was ${bill * 0.15}, and the total value ${bill + (bill * 0.15)}`)
+} else {
+    console.log(`The bill was ${bill}, the tip was ${bill * 0.2}, and the total value ${bill + (bill * 0.2)}`)
+} */
+
+
+
